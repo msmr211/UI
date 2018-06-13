@@ -39,23 +39,34 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color:#FFE400;
+  color:#FFAF00;
+}
+
+.navbar-brand img{
+	position: relative;
+	margin-top: 2px;
 }
 
 hr {
 	margin-top:20px;
 	margin-bottom:40px;
 }
-.navbar-brand {
+a.navbar-brand {
   float: left;
   height: 50px;
   padding: 15px 15px;
   font-size: 50px;
   line-height: 20px;
+	width: 50px;
+	height: 50px;
+
 }
-a.navbar-brand span {
-	color:#fff;
+a.navbar-brand {
+	color:black;
 	font-size:35px;
+	width: 50px;
+	height: 50px;
+	font-family:'배달의 민족 주아', Arial, sans-serif;
 }
 
 .navbar-collapse {
@@ -70,7 +81,7 @@ a.navbar-brand span {
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 0;
-  background-color:#FFE400;
+  background-color:#FFAF00;
 }
 .nav-tabs {
   border-bottom:0;
@@ -95,7 +106,7 @@ a.navbar-brand span {
 .nav-tabs > li.active > a {
 	color: #fff;
   cursor: default;
-  background-color:#FFE400;
+  background-color:#FFAF00;
   border: 0;
   border-bottom-color: transparent;
 
@@ -140,7 +151,7 @@ a.navbar-brand span {
 }
 
 .icon {
-	color:#FFE400;
+	color:#FFAF00;
 	margin-top:30px;
 	margin-bottom:30px;
 }
@@ -149,7 +160,7 @@ a.navbar-brand span {
 	margin-bottom:30px;
 }
 .ficon i {
-	color:#FFE400;
+	color:##FFAF00;
 }
 .ficon a {
 	color:#333;
@@ -198,7 +209,7 @@ a.navbar-brand span {
 
 .btn-primary {
   padding: 8px 20px;
-  background:#FFE400;
+  background:#FFAF00;
   color: #fff;
   border:none;
   margin-top: 10px;
@@ -206,7 +217,7 @@ a.navbar-brand span {
 
 .btn-primary:hover,
 .btn-primary:focus{
-  background: #FFE400;
+  background: #FFAF00;
   outline: none;
   box-shadow: none;
 }
@@ -267,7 +278,7 @@ a.navbar-brand span {
 	margin-bottom:30px;
 }
 .blog .ficon a:hover {
-	color:#FFE400;
+	color:#FFAF00;
 }
 
 .form-search .form-control {
@@ -334,7 +345,7 @@ a.navbar-brand span {
 	color:#fff;
 	text-align:center;
 	margin-bottom:-5px;
-	background:#FFE400;
+	background:#FFAF00;
 
 	padding:15px 20px;
 }
@@ -367,7 +378,7 @@ a.navbar-brand span {
 	margin-bottom:50px;
 }
 .popular-tags h5 {
-	color:#FFE400;
+	color:#FFAF00;
 	margin-bottom:30px;
 	text-align:center;
 }
@@ -390,7 +401,7 @@ a.navbar-brand span {
 .popular-tags ul.tags li a:hover {
 	text-decoration:none;
 	color:#fff;
-	background-color:#FFE400;
+	background-color:#FFAF00;
 }
 
 /* --- Portfolio --- */
@@ -555,14 +566,14 @@ footer {
 }
 .last-div {
 	margin-top:40px;
-    background: #FFE400;
+    background: #FFAF00;
     padding: 20px 0;
     position: relative;
 }
 
 .copyright {
     font-size: 14px;
-    color: #fff;
+    color: white;
     margin: 0;
     font-weight: 300;
     float: left;
@@ -589,7 +600,7 @@ ul.social-network li {
 	color:#73f4fc;
 }
 ul.social-network li a {
-	color:#73f4fc;
+	color:#fff;
 }
 ul.social-network li a:hover {
 	color:#fff;
